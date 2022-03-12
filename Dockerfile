@@ -24,9 +24,6 @@ RUN chmod a+rw /var/boozang
 
 VOLUME /var/boozang
 
-# Make Chrome downloads dir
-RUN mkdir -p /root/Downloads/
-
 # Include versioning file
 ADD VERSION .
 
